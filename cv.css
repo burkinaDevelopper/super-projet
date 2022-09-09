@@ -18,11 +18,11 @@ body
 	margin: auto;
 	border: 2px solid black;
 	border-radius: 6px 6px 0px 0px;
-	background-image: url("font_ecran.PNG");
+	background: yellow;
 }
 h2, h3
 {
-	font-family: 'droid_sansregular';
+	font-family: 'droid_sansregular', ;
 }
 h2
 {
