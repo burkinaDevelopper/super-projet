@@ -1,0 +1,129 @@
+@font-face 
+{
+    font-family: 'droid_sansregular';
+    src: url('DroidSans-webfont.eot');
+    src: url('DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('DroidSans-webfont.woff') format('woff'),
+         url('DroidSans-webfont.ttf') format('truetype'),
+         url('DroidSans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+} 
+body
+{
+	color: black;
+	width: 800px;
+	height: 900px;
+	margin: auto;
+	border: 2px solid black;
+	border-radius: 6px 6px 0px 0px;
+	background-image: url("font_ecran.PNG");
+}
+h2, h3
+{
+	font-family: 'droid_sansregular';
+}
+h2
+{
+   color: white;
+   margin: 0px 0px 0px 20px;
+}
+h2 + p
+{
+	margin: 0px 0px 0px 20px;
+	color: #DEFBE3;
+	font-family: Georgia; 
+}
+header
+{
+	display: flex;
+	
+}
+.taille_image
+{
+	border:2px black groove;
+	box-shadow: 0px 4px 2px black;
+	border-radius: 5px 5px 0px 0px;
+}
+.font_ecran
+{
+	background-image: url("decoration.PNG");
+	height: 105px;
+	width: 100%;
+}
+.mes_contact
+{
+	display: flex;
+	flex-direction: row;
+	margin: 0px;
+	padding-top: 30px;
+	color: #DEFBE3;
+	justify-content: space-around;
+	font-family: Georgia;
+}
+.espace
+{
+	margin-right: 5px;
+}
+ /* fin de l'entet et debut du corps */
+section
+{
+	display: flex;
+	padding-left: 3px;
+}
+article
+{
+	width: 75%;
+}
+.titre+div+div
+{
+	border-top: 1px black solid;
+}
+.titre+div+div+div
+{
+	border-top: 1px black solid;
+}
+.etirer 
+{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0px;
+	
+}
+
+.vide
+{
+	margin-top: 0px;
+}
+
+aside
+{
+	margin-top:px;
+	padding: 8px;
+	width: 25%;
+	height: 1000px;
+}
+.ligne_verticale
+{
+	border-left: 2px black solid;
+	padding-left: 5px;
+	padding-bottom: 200px;
+
+}
+h3+p
+{
+	padding-left: 5px;
+}
+.regrouper
+{
+	margin: 30px;
+	
+}
+.groupe
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
